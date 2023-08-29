@@ -1,5 +1,5 @@
 //Named Argument
-void fun(String Movie_name , double coll){
+void fun({String? Movie_name , double? coll}){
   print("start fun");
   print(Movie_name);
   print(coll);
